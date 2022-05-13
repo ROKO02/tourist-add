@@ -1,39 +1,32 @@
-const gnb = document.querySelectorAll(".gnb > li")
+var event_window_size = window.matchMedia('(min-width: 1024px)');
 
-const cont1 = document.querySelectorAll(".openAll1")
-const cont2 = document.querySelectorAll(".openAll2")
-const cont3 = document.querySelectorAll(".openAll3")
-const cont4 = document.querySelectorAll(".openAll4")
+var mauseOn = document.getElementsByClassName("openAll");
+var subMenu = document.getElementsByClassName("submenu_list");
 
-const a1 = document.querySelector(".submenu_list1")
-const a2 = document.querySelector(".submenu_list2")
-const a3 = document.querySelector(".submenu_list3")
-const a4 = document.querySelector(".submenu_list4")
-
-cont1[0].addEventListener("mouseover",() => {
-    a1.style.display = "block";
+mauseOn[0].addEventListener("mouseover",() => {
+    subMenu[0].style.display = "block";
 })
-cont1[0].addEventListener("mouseout",() => {
-    a1.style.display = "none";
+mauseOn[0].addEventListener("mouseout",() => {
+    subMenu[0].style.display = "none";
 })
 
-cont2[0].addEventListener("mouseover",() => {
-    a2.style.display = "block";
+mauseOn[1].addEventListener("mouseover",() => {
+    subMenu[1].style.display = "block";
 })
-cont2[0].addEventListener("mouseout",() => {
-    a2.style.display = "none";
-})
-
-cont3[0].addEventListener("mouseover",() => {
-    a3.style.display = "block";
-})
-cont3[0].addEventListener("mouseout",() => {
-    a3.style.display = "none";
+mauseOn[1].addEventListener("mouseout",() => {
+    subMenu[1].style.display = "none";
 })
 
-cont4[0].addEventListener("mouseover",() => {
-    a4.style.display = "block";
+mauseOn[2].addEventListener("mouseover",() => {
+    subMenu[2].style.display = "block";
 })
-cont4[0].addEventListener("mouseout",() => {
-    a4.style.display = "none";
+mauseOn[2].addEventListener("mouseout",() => {
+    subMenu[2].style.display = "none";
+})
+
+mauseOn[3].addEventListener("mouseover",() => {
+    subMenu[3].style.display = "block";
+})
+mauseOn[3].addEventListener("mouseout",() => {
+    subMenu[3].style.display = "none";
 })
