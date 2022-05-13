@@ -255,7 +255,7 @@ background-size: cover;
 
 
 /* ------메인 페이지(index.html) 시작------ */
-/* 헤더 */
+/* 헤더 시작 */
 header{
     position: fixed;
     top:0; left:0;
@@ -329,6 +329,8 @@ header > .header_area > h1 > a{
 .gnb_depth .submenu_list li:last-child a{
     padding-right: 0;
 }
+/* 헤더 끝 */
+/* 컨테니어 시작 */
 #container{ padding-bottom: 70px; }
 .main_rolling_mobile{display: none;}
 .visualRoll{
@@ -470,6 +472,8 @@ header > .header_area > h1 > a{
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+/* 컨테이너 끝 */
+/* 푸터 시작 */
 footer{
     border-top:1px solid #ddd;
 }
@@ -531,6 +535,8 @@ footer > .foot_area > .snslink > li+li > a{
 footer > .foot_area > .snslink > li+li+li > a{
     background-image: url(../images/ico_instargram_r.png);
 }
+/* 푸터 끝 */
+/* 퀵 메뉴 시작 */
 .quick_area{
     position: fixed;
     top:171px;
@@ -579,7 +585,7 @@ footer > .foot_area > .snslink > li+li+li > a{
     background:url(../images/ico_totop.png) no-repeat center;
     background-size: 50%;
 }
-
+/* 퀵 메뉴 끝 */
 /* ------메인 페이지(index.html) 끝------ */
 /* ------로그인 페이지(login.html) 시작------ */
 .login_wrap{ width:508px; margin:100px auto 0; }
